@@ -1,0 +1,76 @@
+/* top要素への装飾 */
+#top{
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    
+}
+/* top-child装飾 */
+
+.top-child{
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline-block;
+}
+
+/* middleの装飾 */
+#middle{
+    width: 800px;
+    height: 800px;
+    margin:20px auto 20px auto;
+   background-color: #ffd9df;
+   position: relative;
+}
+
+/* 3つのdiv共通の装飾 */
+#middle > div{
+    width: 200px;
+    height: 200px;
+    background-color: #87ceed;
+}
+
+/* 図形配置 */
+#middle-child1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#middle-child2{
+    position: absolute;
+    top :300px;
+    left: 300px;
+}
+#middle-child3{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+/* bottomの装飾 */
+#bottom{
+    width: 800px;
+    height: 300px;
+    margin: 20px auto 20px auto;
+    background-color: #87cced;
+    position: relative;
+}
+
+/* 3つの共通装飾 */
+#bottom > div{
+    width :400px;
+    height: 100px;
+    background-color:  #e5dcf0;
+}
+
+/* 図形配置 */
+#bottom-child2{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+#bottom-child3{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
